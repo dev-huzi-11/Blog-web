@@ -25,7 +25,7 @@ const BlogList = () => {
   return (
     <div className="py-20">
       <h1 className="text-4xl sm:text-5xl font-bold text-center py-[2rem]">Blogs</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center gap-6 gap-y-10 xl:mx-24 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 items-center gap-6 gap-y-10 xl:mx-24 px-6">
         {blog_data.slice(0, 7).map((items: BlogItem, index) => {
           return (
             <BlogItems
